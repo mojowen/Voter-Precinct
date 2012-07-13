@@ -3,9 +3,9 @@ var geojsonlabels;
 
 $(function() {
 	// create the geojson map
-    var ilat = parseFloat(urlParams['lat']) || 37.74;
-    var ilon = parseFloat(urlParams['lon']) || -122.44;
-    var izoom = parseInt(urlParams['zoom']) || 12;
+    var ilat = parseFloat(urlParams['lat']) || 45.593952193893045;
+    var ilon = parseFloat(urlParams['lon']) || -122.687438566855;
+    var izoom = parseInt(urlParams['zoom']) || 13;
     
 	geojsonmap = explore.map("mapContent", "hoverLabel", {
 		mapStyle: styles,
