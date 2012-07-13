@@ -43,26 +43,6 @@
 
         <div id="mapControls">
 
-    		<div id="searchBox" class="boxShadow boxRound">
-    		    <form id="searchForm">
-    		        <label for="search">Jump to</label>
-    		        <input type="textArea" id="search" value="City, State or Zipcode" />
-    		        <input id="send" type="submit" value="Search it!" style="display:none;" />
-    		    </form>
-                <br />
-                <form method="get" id="addLayerForm">
-                    <label for="url">Add Layer</label>
-                    <input name="url" style="width: 170px;" />
-                    <label for="url">Layer Type</label>
-                    <select name="type">
-                       <option value="viewport-geohash">Geohash URL</option>
-                       <option value="viewport-bbox">Bbox URL</option>
-                       <option value="image-tiles">Image Tiles URL</option>
-                       <option value="geojson">Single GeoJSON URL</option>
-                    </select>
-                </form>
-    		</div>
-		
             <div id="zoomIn"  class="zoomButton boxShadow"><div id="zoomInImage">Zoom In</div></div>
             <div id="zoomOut" class="zoomButton boxShadow"><div id="zoomOutImage">Zoom Out</div></div>
 
@@ -73,7 +53,9 @@
             About
         </div>
         <div id="aboutDescription" class="boxShadow boxRound">
-            The GeoJSON Viewer is a project by Sha, Glen, and Talin at Trulia. <a href="https://github.com/shashashasha/GeoJSON-Viewer">Fork it on Github</a>.
+            <p>This demonstrates creating Voter Precincts by mapping registered voters and grouping them by precinct</p>
+			<p>Read more about how this was done - and how you can make it better - by <a href="https://github.com/mojowen/Voter-Precinct/">visiting the project page</a></p>
+			<p>The GeoJSON Viewer is a project by Sha, Glen, and Talin at Trulia. <a href="https://github.com/shashashasha/GeoJSON-Viewer">Fork it on Github</a>.</p>
         </div>
 	  </div>
 </body>
